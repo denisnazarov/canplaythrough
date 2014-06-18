@@ -28,10 +28,10 @@
 
         if (secondsLoaded > estimatedRemainingDownloadSeconds) {
           successCallback();
-          console.log("progress," 1);
+          // console.log("progress," 1);
         } else {
           var loadingProgress = elapsedTime / ((estimatedRemainingDownloadSeconds - secondsToLoad) + elapsedTime);
-          console.log("progress," loadingProgess);
+          // console.log("progress," loadingProgess);
         }
       }
     };
